@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CDN.Authentication.AngularJS.Web", "..\CDN.Authentication.AngularJS.Web\CDN.Authentication.AngularJS.Web.csproj", "{D7365236-3C13-40B4-9426-E62F99DB8F9A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CDN.Authentication.API", "CDN.Authentication.API\CDN.Authentication.API.csproj", "{36F5C757-2F81-4199-8334-88A986555408}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CDN.Authentication.API", "..\CDN.Authentication.API\CDN.Authentication.API.csproj", "{36F5C757-2F81-4199-8334-88A986555408}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CDN.Authentication.AngularJS.Web", "CDN.Authentication.AngularJS.Web\CDN.Authentication.AngularJS.Web.csproj", "{D7365236-3C13-40B4-9426-E62F99DB8F9A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CDN.Authentication.ResourceServer", "..\CDN.Authentication.ResourceServer\CDN.Authentication.ResourceServer.csproj", "{0B0DBBF8-5440-4F64-9454-274CC1C8A053}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CDN.Authentication.ResourceServer", "CDN.Authentication.ResourceServer\CDN.Authentication.ResourceServer.csproj", "{0B0DBBF8-5440-4F64-9454-274CC1C8A053}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,14 +15,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D7365236-3C13-40B4-9426-E62F99DB8F9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D7365236-3C13-40B4-9426-E62F99DB8F9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D7365236-3C13-40B4-9426-E62F99DB8F9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D7365236-3C13-40B4-9426-E62F99DB8F9A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{36F5C757-2F81-4199-8334-88A986555408}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{36F5C757-2F81-4199-8334-88A986555408}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{36F5C757-2F81-4199-8334-88A986555408}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{36F5C757-2F81-4199-8334-88A986555408}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7365236-3C13-40B4-9426-E62F99DB8F9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7365236-3C13-40B4-9426-E62F99DB8F9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7365236-3C13-40B4-9426-E62F99DB8F9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7365236-3C13-40B4-9426-E62F99DB8F9A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{0B0DBBF8-5440-4F64-9454-274CC1C8A053}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0B0DBBF8-5440-4F64-9454-274CC1C8A053}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0B0DBBF8-5440-4F64-9454-274CC1C8A053}.Release|Any CPU.ActiveCfg = Release|Any CPU
